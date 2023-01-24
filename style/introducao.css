@@ -1,0 +1,89 @@
+.introducao {
+    max-width: 75rem;
+    padding: 2.5rem 1.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao h1 {
+    font-size: 4rem;
+    line-height: 1.125;
+    margin-bottom: 1.875rem;
+    position: relative;
+}
+.introducao h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url(../img/decoracao.svg) no-repeat center;
+    position: absolute;
+    top: -13px;
+    left: -55px;
+    z-index: -1;
+}
+.introducao p {
+    font-size: 2rem;
+    color: #525252;
+}
+hr {    
+    display: block;
+    width: 70rem;
+    margin: 4rem auto;
+    border: 1px solid #f0f0f0;
+}
+
+@media (max-width: 1100px) {
+    hr {
+        width: 90%;
+    }
+}
+@media (max-width: 800px) {    
+    .introducao {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .introducao h1 {
+        font-size: 3.25rem;
+    }
+    .introducao h1::before {
+        background-size: 3.125rem;
+        top: -1.375rem;
+    }
+    .introducao p {
+        font-size: 1.5rem;
+    }
+    hr {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+@media (max-width: 400px) {
+    .introducao h1 {
+        font-size: 3rem;
+    }
+    .introducao h1::before {
+        background-size: 2.875rem;
+        top: -1.375rem;
+        left: -3.75rem;
+    }
+    .introducao p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 350px) {
+    .introducao h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .introducao h1::before {
+        background-size: 1.875rem;
+        top: -2rem;
+        left: -3.75rem;
+    }
+    .introducao p {
+        font-size: 1rem;
+    }
+}
