@@ -26,13 +26,13 @@
 }
 .introducao p {
     font-size: 2rem;
-    color: #525252;
+    color: var(--cor-texto-1);
 }
-hr {    
+hr {
     display: block;
     width: 70rem;
     margin: 4rem auto;
-    border: 1px solid #f0f0f0;
+    border: 1px solid var(--borda);
 }
 
 @media (max-width: 1100px) {
@@ -40,7 +40,7 @@ hr {
         width: 90%;
     }
 }
-@media (max-width: 800px) {    
+@media (max-width: 800px) {
     .introducao {
         justify-content: flex-start;
         align-items: flex-start;

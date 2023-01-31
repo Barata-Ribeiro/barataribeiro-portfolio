@@ -1,5 +1,5 @@
 .footer {
-    background: #000;
+    background: var(--cor-fundo-2);
 }
 
 .footer-container {
@@ -15,7 +15,7 @@
 .footer-texto {
     font-size: 1.5rem;
     line-height: 1.33;
-    color: #ccc;
+    color: var(--cor-texto-3);
 }
 
 .footer-contato li {
@@ -26,12 +26,12 @@
     margin-bottom: 1.875rem;
 }
 .footer-contato li a {
-    color: #fff;
+    color: var(--branco);
 }
 .footer-copy {
     grid-column: 1 / -1;
     font-size: 1.125rem;
-    color: #8f8f8f;
+    color: var(--cor-subtitulo-3);
 }
 
 @media (max-width: 800px) {

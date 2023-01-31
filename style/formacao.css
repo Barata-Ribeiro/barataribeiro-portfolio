@@ -105,7 +105,7 @@
     margin-bottom: 20px;
 }
 .formacao-extra span {
-    color: #8f8f8f;
+    color: var(--cor-subtitulo-3);
 }
 
 @media (max-width: 800px) {
@@ -115,13 +115,13 @@
         gap: 2.5rem;
     }
     .formacao .subtitulo {
-        color: #fff;
+        color: var(--branco);
     }
     .formacao-texto {
         font-size: 1.25rem;
     }
     .formacao-extra h3::before {
         position: initial;
-        margin-bottom: .625rem;
+        margin-bottom: 0.625rem;
     }
 }

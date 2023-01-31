@@ -6,8 +6,12 @@
     --cor-subtitulo-1: #141414;
     --cor-subtitulo-2: #000;
     --cor-subtitulo-3: #8f8f8f;
+    --cor-subtitulo-4: #e0e0e0;
     --cor-fundo-1: #141414;
     --cor-fundo-2: #000;
+    --cor-fundo-3: #f5f5f5;
+    --branco: #fff;
+    --borda: #f0f0f0;
 }
 @media (prefers-color-scheme: dark) {
     :root {
