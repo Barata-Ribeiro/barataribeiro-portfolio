@@ -2,6 +2,8 @@
     --cor-texto-1: #525252;
     --cor-texto-2: #a3a3a3;
     --cor-texto-3: #ccc;
+    --cor-texto-4: #fff;
+    --cor-texto-negrito-branco: #fff;
     --cor-texto-negrito: #000;
     --cor-subtitulo-1: #141414;
     --cor-subtitulo-2: #000;
@@ -10,18 +12,18 @@
     --cor-fundo-1: #141414;
     --cor-fundo-2: #000;
     --cor-fundo-3: #f5f5f5;
-    --branco: #fff;
+    --cor-fundo-4: #fff;
     --borda: #f0f0f0;
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
     }
-}
+} */
 
 body {
     font-family: Jost, "Open Sans", Roboto;
     margin: 0px;
-    color: #141414;
+    color: var(--cor-subtitulo-1);
 }
 h1,
 h2,
