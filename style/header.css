@@ -9,15 +9,15 @@
 .header-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: .625rem;
+    gap: 0.625rem;
     justify-content: center;
 }
 .header-menu a {
     font-size: 1.125rem;
     line-height: 1.3;
-    padding: .625rem 1.25rem;
+    padding: 0.625rem 1.25rem;
+    color: var(--cor-11);
     text-decoration: none;
-    color: var(--cor-subtitulo-1);
     display: block;
 }
 
@@ -28,7 +28,7 @@
         padding: 1.25rem;
     }
     .header a {
-        background: var(--cor-fundo-3);
-        border-radius: .25rem;
+        background: var(--cor-1);
+        border-radius: 0.25rem;
     }
 }
