@@ -19,6 +19,11 @@
     color: var(--cor-11);
     text-decoration: none;
     display: block;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+}
+.header-menu a:hover {
+    border-color: var(--cor-2);
 }
 
 @media (max-width: 800px) {

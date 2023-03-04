@@ -1,37 +1,11 @@
 body {
-    font-family: Jost, "Open Sans", Roboto;
-    margin: 0px;
-}
-h1,
-h2,
-h3,
-p,
-hr,
-ul {
-    margin: 0px;
-    padding: 0px;
-}
-h1,
-h2,
-h3 {
-    font-family: Bitter;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    display: block;
+    font-family: Jost, 'Open Sans', Roboto;
 }
 
 .subtitulo {
-    font-size: 7.875rem;
-    line-height: 1;
+    font: 700 7.625rem/1 'Bitter', sans-serif;
     text-transform: uppercase;
     word-break: break-all;
-    max-width: 4ch;
 }
 
 @media (max-width: 800px) {

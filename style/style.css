@@ -1,7 +1,8 @@
-@import "./global.css";
-@import "./cores.css";
-@import "./header.css";
-@import "./introducao.css";
-@import "./experiencia.css";
-@import "./formacao.css";
-@import "./footer.css";
+@import './reset.css';
+@import './global.css';
+@import './cores.css';
+@import './header.css';
+@import './introducao.css';
+@import './experiencia.css';
+@import './formacao.css';
+@import './footer.css';
